@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feedback — Justice Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ══════════════ NAVBAR ══════════════ -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand">
+        <span class="brand-icon">⚖️</span>
+        <span>Justice Portal</span>
+      </a>
+      <ul class="navbar-links">
+        <li><a href="index.html"    class="nav-link">Home</a></li>
+        <li><a href="search.html"   class="nav-link">Search</a></li>
+        <li><a href="insights.html" class="nav-link">Insights</a></li>
+        <li><a href="about.html"    class="nav-link">About</a></li>
+        <li><a href="feedback.html" class="nav-link">Feedback</a></li>
+      </ul>
+      <button id="hamburger" class="hamburger-btn">☰</button>
+    </div>
+    <ul id="mobileMenu" class="mobile-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="search.html">Search</a></li>
+      <li><a href="insights.html">Insights</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+    </ul>
+  </nav>
+
+  <!-- ══════════════ MAIN CONTENT ══════════════ -->
+  <main class="main-content">
+
+    <h1 class="page-title">Share Feedback</h1>
+    <p class="page-subtitle">
+      We value your suggestions. Help us improve the portal.
+    </p>
+
+    <!--
+      React mounts here.
+      FeedbackApp (components/FeedbackApp.jsx) handles form state,
+      validation, API call, and success/error display.
+    -->
+    <div id="root"></div>
+
+  </main>
+
+  <div id="toast"></div>
+
+  <!-- Shared JS -->
+  <script src="js/navbar.js"></script>
+  <script src="js/toast.js"></script>
+
+  <!-- React + ReactDOM CDN -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+  <!-- Babel standalone -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <!-- React component -->
+  <script type="text/babel" src="components/FeedbackApp.jsx"></script>
+
+</body>
+</html>

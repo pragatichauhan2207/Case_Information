@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Justice Portal — Sikkim High Court</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- Our global CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ══════════════ NAVBAR ══════════════ -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand">
+        <span class="brand-icon">⚖️</span>
+        <span>Justice Portal</span>
+      </a>
+
+      <!-- Desktop nav links -->
+      <ul class="navbar-links">
+        <li><a href="index.html"    class="nav-link">Home</a></li>
+        <li><a href="search.html"   class="nav-link">Search</a></li>
+        <li><a href="insights.html" class="nav-link">Insights</a></li>
+        <li><a href="about.html"    class="nav-link">About</a></li>
+        <li><a href="feedback.html" class="nav-link">Feedback</a></li>
+      </ul>
+
+      <!-- Hamburger (mobile only) -->
+      <button id="hamburger" class="hamburger-btn" aria-label="Open menu">☰</button>
+    </div>
+
+    <!-- Mobile dropdown -->
+    <ul id="mobileMenu" class="mobile-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="search.html">Search</a></li>
+      <li><a href="insights.html">Insights</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+    </ul>
+  </nav>
+
+  <!-- ══════════════ MAIN CONTENT ══════════════ -->
+  <main class="main-content">
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div>
+        <span class="hero-badge">Sikkim High Court</span>
+        <h1 class="hero-title">Justice Portal</h1>
+        <p class="hero-subtitle">
+          Search, explore, and analyse judgments from the Sikkim High Court.
+          Over <strong>2,400+ case records</strong> available at your fingertips.
+        </p>
+        <div class="hero-actions">
+          <a href="search.html"   class="btn btn-primary btn-lg">🔍 Search Judgments</a>
+          <a href="insights.html" class="btn btn-secondary btn-lg" style="color:#fff; border-color:rgba(255,255,255,0.4);">📊 View Insights</a>
+        </div>
+      </div>
+      <div class="hero-visual">⚖️</div>
+    </section>
+
+    <!-- Features Grid -->
+    <h2 class="section-heading">What You Can Do</h2>
+    <div class="features-grid">
+
+      <a href="search.html" class="feature-card">
+        <div class="feature-icon">🔍</div>
+        <h3 class="feature-title">Case Search</h3>
+        <p class="feature-desc">Search by petitioner name or case number with instant results.</p>
+      </a>
+
+      <a href="search.html" class="feature-card">
+        <div class="feature-icon">📅</div>
+        <h3 class="feature-title">Filter by Year</h3>
+        <p class="feature-desc">Narrow down results by judgment year for focused research.</p>
+      </a>
+
+      <a href="insights.html" class="feature-card">
+        <div class="feature-icon">📊</div>
+        <h3 class="feature-title">Insights Dashboard</h3>
+        <p class="feature-desc">Visual charts showing year-wise and judge-wise case distribution.</p>
+      </a>
+
+      <a href="search.html" class="feature-card">
+        <div class="feature-icon">📄</div>
+        <h3 class="feature-title">Document Access</h3>
+        <p class="feature-desc">Direct links to PDF and HTML versions of every judgment.</p>
+      </a>
+
+      <a href="feedback.html" class="feature-card">
+        <div class="feature-icon">💬</div>
+        <h3 class="feature-title">Feedback</h3>
+        <p class="feature-desc">Share your suggestions to help us improve the portal.</p>
+      </a>
+
+      <a href="about.html" class="feature-card">
+        <div class="feature-icon">ℹ️</div>
+        <h3 class="feature-title">About</h3>
+        <p class="feature-desc">Learn about the project, its objectives, and the team.</p>
+      </a>
+
+    </div>
+  </main>
+
+  <!-- Toast notification element -->
+  <div id="toast"></div>
+
+  <!-- Shared JS -->
+  <script src="js/navbar.js"></script>
+  <script src="js/toast.js"></script>
+
+</body>
+</html>
