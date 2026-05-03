@@ -1,10 +1,10 @@
-# ⚖️ Justice Portal — Sikkim High Court Judgment Search System
+#  Justice Portal — Sikkim High Court Judgment Search System
 
 Full-stack web application for searching and analysing Sikkim High Court judgments.
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Layer     | Technology                                         |
 |-----------|----------------------------------------------------|
@@ -15,12 +15,12 @@ Full-stack web application for searching and analysing Sikkim High Court judgmen
 | JSX       | Babel Standalone (in-browser transpile)           |
 | Data      | CSV flat file (2,400+ judgment records)           |
 
-> ⚠️ **No Node.js, no npm, no build step required.**
+> **No Node.js, no npm, no build step required.**
 > React is loaded directly in the browser via unpkg CDN.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 JusticePortal/
@@ -60,7 +60,7 @@ JusticePortal/
 
 ---
 
-## ⚙️ Setup & Run (Only Python Needed!)
+##  Setup & Run (Only Python Needed!)
 
 ### 1. Install Python dependencies
 
@@ -92,7 +92,7 @@ No npm, no Node.js, no build step.
 
 ---
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint                        | Description                        |
 |--------|---------------------------------|------------------------------------|
@@ -104,16 +104,16 @@ No npm, no Node.js, no build step.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔍 Search by petitioner name or case number
-- 📅 Year filter dropdown
-- 📊 Insights dashboard (bar charts with Chart.js)
-- 📄 Direct PDF & HTML document links
-- 💬 Feedback form with validation
-- 🔔 Toast notifications
-- 📑 Pagination (20 results/page)
-- 📱 Responsive mobile design
+-  Search by petitioner name or case number
+- Year filter dropdown
+-  Insights dashboard (bar charts with Chart.js)
+-  Direct PDF & HTML document links
+-  Feedback form with validation
+-  Toast notifications
+-  Pagination (20 results/page)
+-  Responsive mobile design
 
 ---
 
