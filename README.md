@@ -9,10 +9,9 @@ Full-stack web application for searching and analysing Sikkim High Court judgmen
 | Layer     | Technology                                         |
 |-----------|----------------------------------------------------|
 | Backend   | Python 3, Flask, Flask-CORS, Pandas               |
-| Frontend  | HTML5 + CSS3 + Vanilla JS                         |
-| React     | React 18 via **CDN**    |
-| Charts    | Chart.js via CDN                                  |
-| JSX       | Babel Standalone (in-browser transpile)           |
+| Frontend  | HTML + CSS +  JS                         |
+| React     | React |
+| Charts    | Chart.js                                  |
 | Data      | CSV flat file (2,400+ judgment records)           |
 
 > **No Node.js, no npm, no build step required.**
